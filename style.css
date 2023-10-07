@@ -13,6 +13,7 @@
   }
   
   .cal {
+    border-radius: 10px;
     width: 275px;
     margin: auto;
     min-height: 400px;
@@ -59,7 +60,7 @@
     margin-right: -4px;
     border-right: solid 2px #3C4857;
     border-bottom: solid 2px #3C4857;
-    transition: all 0.2s ease-in-out;
+    
   }
   
   .button.o {
@@ -68,16 +69,18 @@
   }
   
   .button.c {
-    color: greenyellow;
+    color: red;
     background: #404D5E;
   }
-  
-  .button:hover {
-    background: #E0B612;
+
+  .button.e {
+    color: #AEB3BA;
+    background: green;
   }
-  
+
   .button.c:hover,
   .button:hover {
     background: blue;
     color: #fff;
   }
+  
